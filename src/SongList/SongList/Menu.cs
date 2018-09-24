@@ -51,6 +51,6 @@ namespace SongList
             while (!valid);
 
             return parsedOption;
-        }
+ }
     }
 }

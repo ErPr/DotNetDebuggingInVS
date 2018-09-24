@@ -24,5 +24,5 @@
         {
             return Name + " by " + Artist;
         }
-    }
+    } 
 }

@@ -50,6 +50,8 @@ namespace SongList
             do
             {
                 string songName = CLI.Prompt("What's the name of the song? ");
+
+
                 string artist = CLI.Prompt("Who's the artist? ");
 
                 _songs.Add(new Song { Name = songName, Artist = artist });
